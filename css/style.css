@@ -1,0 +1,233 @@
+/*подключаю шрифт*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&displayswap");
+/*==================================================================================================*/
+/*=============================домашняя работа №1===================================================*/
+.wraper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "Roboto",sans-serif;
+}
+/*========================================header================================================*/
+.wraper__header {
+	margin: 50px 0px 50px 0px;
+}
+.header {
+	background-color: rgb(0, 169, 175);
+	
+}
+._conteiner{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.header__row {
+	border: 2px solid #5e5e5e;
+	background: #ffffff;
+   border-radius: 10px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 40px;
+}
+.header__menu {
+	display: flex;
+	flex: 0 1 556px;
+	justify-content: space-between;
+}
+.header__item {
+	font-weight: 700;
+	line-height: 1.5;
+	font-size: 14px;
+	letter-spacing: 0.15px;
+	color: #000000;
+	position: relative;
+}
+.header__item_arrow::before{
+	content: "";
+	width: 8px;
+	height: 6px;
+	background: url(/img/arrow.svg) 0 0, no-repeat;
+	position: absolute;
+	top: 8px;
+	right: -16px;
+}
+.header__link {
+
+}
+.header__icons {
+	display: flex;
+	flex: 0 1 67px;
+	justify-content: space-between;
+}
+.header__search {
+}
+.header__icon {
+	
+}
+.header__basket {
+	position: relative;
+}
+.header__basket::after{
+	content: "";
+	width: 16px;
+	height: 16px;
+	background: url(/img/basket-number.svg) 0 0 no-repeat;
+	position: absolute;
+	top: -6px;
+	right: -7px;
+}
+/*========================================main================================================*/
+
+.wraper__main {
+	/*этот margin специальо для разделения блоков*/
+	margin: 0px 0px 250px 0px;
+}
+.main {
+}
+.main__conteiner {
+}
+._conteiner {
+}
+.main__subtitle {
+	font-weight: 700;
+   font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	padding: 0px 0px 0px 33px;
+	background: url(../img/main-before.svg) 0 -1px no-repeat;
+	margin: 0px 0px 33px 0px;
+}
+.main__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.1;
+	color:  #000000;
+	margin: 0px 0px 68px 0px;
+}
+.main__columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+
+}
+.main__column {
+	flex: 0 1 33.333%;
+	padding: 0px 12px;
+}
+.main__content {
+	display: flex;
+}
+.main__image {
+	width: 57px;
+	height: 50px;
+	margin: 0px 25.95px 0px 0px;
+}
+.info-main {
+}
+.info-main__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.3;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+}
+.info-main__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #4B4B4B;
+	letter-spacing: 0.15px;
+}
+/*========================================footer================================================*/
+.footer{
+	background-color: #29C3BE;
+	min-height: 608px;
+	
+}
+.footer__conteiner{
+}
+.footer__top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0px 0px 79px 0px;
+	
+}
+.footer__info {
+	padding: 111px 0px 0px 0px;
+	
+}
+.footer__sub-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	color: #FFFFFF;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 36.6px;
+	margin: 0px 0px 32.13px 0px;
+	background: url(../img/footer-before.svg) 0 0 no-repeat;
+}
+.footer__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.1;
+	color: #FFFFFF;
+}
+.footer__images {
+	margin: -80px 0px 0px 0px;
+	position: relative;
+}
+.footer__images::before{
+	content: "";
+	height: 308px;
+	width: 695px;
+	background: url(../img/footer-background.png) 0 0 no-repeat;
+	position: absolute;
+	top: 81px;
+	right: -97px;
+}
+.footer__image {
+	position: relative;
+	z-index: 1;
+}
+
+.footer__bottom {
+	
+}
+.footer__columns {
+	display: flex;
+	margin: 0px -40px;
+	flex-wrap: wrap;
+}
+.footer__column {
+	padding: 0px 40px;
+}
+.footer__content {
+	display: flex;
+	flex: 0 0 25%;
+}
+.content-footer {
+	
+}
+.content-footer__image {
+	margin: 0px 12px 0px 0px;
+}
+.content-footer__info {
+}
+.content-footer__price {
+	font-weight: 900;
+	font-size: 36px;
+	color: #FFFFFF;
+	line-height: 1.1;
+	margin: 0px 0px 3px 0px;
+}
+.content-footer__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #5D62B5;
+	letter-spacing: 0.15px;
+}
